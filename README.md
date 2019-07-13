@@ -1,9 +1,9 @@
 # Aguara Gazu MariaDB Docker Image
 
 ![Docker pulls](https://img.shields.io/docker/pulls/aguaragazu/mariadb.svg?style=flat)
-![Version](https://images.microbadger.com/badges/version/aguaragazu/mariadb.svg)
+[![](https://images.microbadger.com/badges/version/aguaragazu/mariadb.svg)](https://microbadger.com/images/aguaragazu/mariadb "Get your own version badge on microbadger.com")
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![Layers](https://images.microbadger.com/badges/image/aguaragazu/mariadb.svg)
+[![](https://images.microbadger.com/badges/image/aguaragazu/mariadb.svg)](https://microbadger.com/images/aguaragazu/mariadb "Get your own image badge on microbadger.com")
 ## Usage
 
 Add the following to your docker-compose.yml file:
