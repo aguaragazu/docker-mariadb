@@ -2,6 +2,8 @@ FROM mariadb:10.3
 
 LABEL maintainer="Jose Carlos Gallo <josecgallo@jjsoft.com.ar>"
 
+RUN apt-get install -y tzdata
+
 RUN echo America/Argentina/Buenos_Aires > /etc/timezone && dpkg-reconfigure --frontend noninteractive tzdata
 
 ENV MYSQL_USER dev
